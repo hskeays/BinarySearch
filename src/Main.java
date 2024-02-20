@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         int[] array = {1, 2, 3, 4, 5};
-        int value = 2;
+        int value = 3;
         int answer = binarySearch(array, value);
 
         if (binarySearch(array, value) == -1) {
